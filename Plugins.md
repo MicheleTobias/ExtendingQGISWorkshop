@@ -18,7 +18,7 @@ We've picked out some plugins that we think are pretty useful.  We'd like you to
 |Qgis2web|OpenLayers 3 and Leaflet webmaps from QGIS projects|[qgis2web wiki](https://github.com/tomchadwin/qgis2web/wiki) |
 |Spatialite| | |
 |TimeManager|Adds visualization for temporal geospatial data |[Anita Graser's Bird Migration Data Tutorial](https://anitagraser.com/2016/09/24/how-to-visualize-bird-migration-data-with-qgis-timemanager/) |
-|TableManager| | |
+|TableManager|Edit attribute table column names and order |[Honey Bee Research Association's Table Manager Tutorial](http://www.coloss.org/beebook/I/gis/7/4/5/2) |
 |Digizing| | |
 |  -- Advanced Digitizing| | |
 |  -- CAD Tools| | |
