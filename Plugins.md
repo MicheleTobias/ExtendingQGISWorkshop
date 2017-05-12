@@ -21,8 +21,8 @@ We've picked out some plugins that we think are pretty useful.  We'd like you to
 |TableManager|Edit attribute table column names and order |[Honey Bee Research Association's Table Manager Tutorial](http://www.coloss.org/beebook/I/gis/7/4/5/2) |
 |Digizing| | |
 |  -- Advanced Digitizing| | |
-|  -- CAD Tools| | |
-|  -- Numeric Edit| | |
+|  -- CAD Tools| |*official documentation appears to have been deleted* |
+|  -- Numerical Vertex Edit| |*not sure if this is the right name* |
 |UAS| | |
 |  -- eVis| | |
 |  -- Photo2Shape| | |
