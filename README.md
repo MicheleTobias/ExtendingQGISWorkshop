@@ -10,7 +10,7 @@ Any GIS becomes more useful when you can connect it to other programs and data s
 
 # Table of Contents
 
-1. Plugins
+1. [Plugins](https://github.com/MicheleTobias/ExtendingQGISWorkshop/blob/master/Plugins.md)
 2. Fancy Features
 3. Processing Toolbox
 4. Toolbox Scripts
