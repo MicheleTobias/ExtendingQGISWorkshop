@@ -14,10 +14,10 @@ We've picked out some plugins that we think are pretty useful.  We'd like you to
 
 |Plugin|Summary|Tutorial|
 |---|---|---|
-|QuickMapServices|Basemaps| |
-|Qgis2web|OpenLayers 3 and Leaflet webmaps from QGIS projects| |
+|QuickMapServices|Basemaps|[QuickMapServices: easy basemaps in QGIS](http://nextgis.com/blog/quickmapservices/) |
+|Qgis2web|OpenLayers 3 and Leaflet webmaps from QGIS projects|[qgis2web wiki](https://github.com/tomchadwin/qgis2web/wiki) |
 |Spatialite| | |
-|TimeManager| | |
+|TimeManager|Adds visualization for temporal geospatial data |[Anita Graser's Bird Migration Data Tutorial](https://anitagraser.com/2016/09/24/how-to-visualize-bird-migration-data-with-qgis-timemanager/) |
 |TableManager| | |
 |Digizing| | |
 |  -- Advanced Digitizing| | |
