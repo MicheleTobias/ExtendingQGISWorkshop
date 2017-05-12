@@ -34,4 +34,6 @@ Feeling adventurous? Try searching for a plugin topic of interest to your work a
 Loaded plugins take a lot of memory, which adds to the program start time, occasionally causes crashes, or rarely can cause conflicts of software versions.  For these reasons, turn off plugins that you are not using.  Given that you've just tried a bunch of new plugins it would be a good time to visit the Plugin Manager to turn off any that you don't think you'll be using on a regular basis.
 
 # Making New Plugins
-Writing your own python plugins for QGIS can easily be it's own workshop, if not a full course, so we'll just introduce the general concepts here.  We encourage you to explore this concept more if it is of interest to you.  Both of your instructors have experience with this topic, so please ask us questions if you'd like to know more.
+Writing your own python or c++ plugins for QGIS can easily be it's own workshop, if not a full course, so we'll just introduce the general concepts here.  We encourage you to explore this concept more if it is of interest to you.  Both of your instructors have experience with this topic, so please ask us questions if you'd like to know more.
+
+The PyQGIS Cookbook has a good introduction to [Developing Python Plugins](http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/plugins.html).  Entertainingly, there is a QGIS plugin called [QGIS Plugin Builder](http://geoapt.net/pluginbuilder/) with excellent documentation to help you write QGIS plugins.
