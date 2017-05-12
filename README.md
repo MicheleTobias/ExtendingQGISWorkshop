@@ -7,8 +7,10 @@ The purpose of this workshop is to introduce people to the features of QGIS that
 
 # Requirements
 To successfully participate in this workshop, you should 
-1. install QGIS 2.14 or 2.18 on your laptop
+1. install [QGIS](http://qgis.org) 2.14 or 2.18 on your laptop
 2. already have a basic understanding of GIS in general and QGIS specifically
+
+Need an intro to QGIS?  [A Gentle Introduction to GIS](http://docs.qgis.org/2.14/en/docs/gentle_gis_introduction/index.html) is an excellent into to the basics of QGIS.
 
 # Abstract
 Any GIS becomes more useful when you can connect it to other programs and data services.  In this workshop you will learn how to connect QGIS to spatial databases, work with data from data services, use QGIS in conjunction with programming languages like R and Python, use plugins, and work with algorithms and processing tools from other GIS programs from the Processing Toolbox.  We’ll also specifically address how to get help and resources for learning on your own.  We recommend that participants have intermediate-level experience (equivalent of an introductory college course) with GIS concepts and have a basic understanding of how to use QGIS (load data, open attribute table, etc.).
