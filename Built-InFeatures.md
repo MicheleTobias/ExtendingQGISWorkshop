@@ -21,7 +21,3 @@ GeoJSON is a single-file vector format that human-readable with a text editor an
 # Exporting Maps in SVG & PDF Format
 
 # Databases
-
-# Spatialite/Geopackage
-
-# PostGIS
