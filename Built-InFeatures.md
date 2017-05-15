@@ -18,6 +18,7 @@ Rule-based styles allow you to combine the power of an SQL-style query with the 
 # Advanced Editing
 
 # Custom SVG Goodness
+One of the exciting things about QGIS is the ability to make your own SVG markers and fills.  You can use any vector illustration software to make your own SVG files, but [Inkscape](https://inkscape.org) is an excellent open source program for creating vector image files.  The QGIS Training Manual has [instructions for making your own custom fills](http://docs.qgis.org/2.14/en/docs/training_manual/basic_map/symbology.html#hard-fa-creating-a-custom-svg-fill).  Anita Graser posted a [discussion of more symbol options](https://anitagraser.com/2016/10/23/more-icons-symbols-for-qgis/) including a plugin for sharing custom symbols.
 
 # Exporting Maps in SVG & PDF Format
 
