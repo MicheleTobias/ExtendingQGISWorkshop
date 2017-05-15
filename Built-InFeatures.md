@@ -13,6 +13,7 @@ GeoTIFF is great for exchanging raster data.  It can store and unlimited number 
 GeoJSON is a single-file vector format that human-readable with a text editor and has a structure similar to XML.  Added bonus: GitHub will automatically visualize GeoJSON files in online repositories!
 
 # Rule-Based Styles
+Rule-based styles allow you to combine the power of an SQL-style query with the visualization capabilities of QGIS.  Have a road layer and want the highways to display differently than the surface streets?  This is your tool!  Nathan Woodrow has a [tutorial on using the rule-based style renderer](https://nathanw.net/2011/06/06/one-of-my-favorite-features-of-qgis/).
 
 # Advanced Editing
 
