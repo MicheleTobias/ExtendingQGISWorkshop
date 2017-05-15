@@ -20,7 +20,7 @@ This workshop will consist of live demonstrations as well as written tutorials t
 
 # Table of Contents
 
-1. [Built-In Features](https://github.com/MicheleTobias/ExtendingQGISWorkshop/blob/master/FancyFeatures.md)
+1. [Built-In Features](https://github.com/MicheleTobias/ExtendingQGISWorkshop/blob/master/Built-InFeatures.md)
 2. [Plugins](https://github.com/MicheleTobias/ExtendingQGISWorkshop/blob/master/Plugins.md)
 3. [Processing Toolbox](https://github.com/MicheleTobias/ExtendingQGISWorkshop/blob/master/ProcessingToolbox.md)
 4. [Toolbox Scripts](https://github.com/MicheleTobias/ExtendingQGISWorkshop/blob/master/ToolboxScrips.md)
