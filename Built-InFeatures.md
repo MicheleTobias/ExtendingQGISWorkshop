@@ -15,7 +15,8 @@ GeoJSON is a single-file vector format that human-readable with a text editor an
 # Rule-Based Styles
 Rule-based styles allow you to combine the power of an SQL-style query with the visualization capabilities of QGIS.  Have a road layer and want the highways to display differently than the surface streets?  This is your tool!  Nathan Woodrow has a [tutorial on using the rule-based style renderer](https://nathanw.net/2011/06/06/one-of-my-favorite-features-of-qgis/).
 
-# Advanced Editing
+# Advanced Editing & Digitizing for Vector Data
+The Advanced Digitizing Toolbar provides advanced digitizing and editing tools for vector data.  You'll probably need to add the toolbar to be able to see it.  From the View menu, select Toolbars, then check the Advanced Digitizing Toolbar.  The QGIS User Manual has a [comprehensive discussion of what each of these tools can do](http://docs.qgis.org/2.14/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#advanced-digitizing).  QGIS Tutorials has a fairly comprehensive [tutorial on creating and editing vector data](http://www.qgistutorials.com/en/docs/digitizing_basics.html).
 
 # Custom SVG Goodness
 One of the exciting things about QGIS is the ability to make your own SVG markers and fills.  You can use any vector illustration software to make your own SVG files, but [Inkscape](https://inkscape.org) is an excellent open source program for creating vector image files.  The QGIS Training Manual has [instructions for making your own custom fills](http://docs.qgis.org/2.14/en/docs/training_manual/basic_map/symbology.html#hard-fa-creating-a-custom-svg-fill).  Anita Graser posted a [discussion of more symbol options](https://anitagraser.com/2016/10/23/more-icons-symbols-for-qgis/) including a plugin for sharing custom symbols.
