@@ -1,6 +1,6 @@
 # ExtendingQGISWorkshop
 
-This repository contains documents and data related to a workshop called Extending QGIS (developed by Michele Tobias & Alex Mandel), presented at [CalGIS 2017](https://calgis2017.locationcon.org/) in Oakland, CA.
+This repository contains documents and data related to a workshop called Extending QGIS (developed by [Michele Tobias](https://github.com/MicheleTobias) & [Alex Mandel](https://github.com/wildintellect)), presented at [CalGIS 2017](https://calgis2017.locationcon.org/) in Oakland, CA.
 
 # Purpose 
 The purpose of this workshop is to introduce people to the features of QGIS that exist outside of the standard download.  
