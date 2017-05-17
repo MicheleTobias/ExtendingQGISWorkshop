@@ -11,10 +11,15 @@ There are many existing **Scripts** in both **Python** and **R** for QGIS. You c
 
 These scripts currently come from the [QGIS-processing repository](https://github.com/wildintellect/QGIS-Processing)
 
+
 # Writing Scripts
 You can write new scripts in either Python or R that can then be run from the toolbox or included in the Model Builder. The idea for these scripts is to do 1 simple task at a time. This way the scripts are more flexible and re-usable. If you have a more complicated process building a **Model** or **Plugin** might be a better way to go. If you need complex user interaction then a **Plugin** is a better choice.
 
 Learn to [Write new Processing algorithms as python scripts](http://docs.qgis.org/2.14/en/docs/user_manual/processing/scripts.html#writing-new-processing-algorithms-as-python-scripts) Documentation for writing custom toolbox algorithms.
+
+> At any time you can right-click on a script and hit Edit to open a text editor which allows you to view or modify the code. Or copy and paste examples for writing your own.
+
+To start a new script, you can use the Create Script option in the toolbox under the script sections, or you can write it in your favorite text/code editor and import it.
 
 ## Python & R
 
