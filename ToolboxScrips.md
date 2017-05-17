@@ -23,7 +23,7 @@ To start a new script, you can use the Create Script option in the toolbox under
 
 ## Python & R
 
-The same documentation for Python applies to R in term of defining inputs and outputs. The only major difference is that each language has it's own section in the toolbox.
+The same documentation for Python applies to R in term of defining inputs and outputs. The only major difference is that each language has it's own section in the toolbox. Ok I lied there is one other things, Python scripts can import other Toolbox algorithms directly, and can also import the QGIS python api.
 
 Overview of [default R scripts](http://docs.qgis.org/2.14/en/docs/user_manual/processing_algs/r/index.html)
 
@@ -87,3 +87,7 @@ If your scripts require non-standard libraries(packages) to be installed in Pyth
 When you use the toolbox to download existing online scripts they come the [QGIS-processing repository](https://github.com/wildintellect/QGIS-Processing)
 
 You can submit additional scripts on Github, by forking and doing a pull request. You can also directly share your scripts with other users. From a user perspective if you can download the script use the "Add script from file" to load it into your toolbox. Or just put them in your .qgis2/processing/scripts or rscripts folder and they will be detected.
+
+## But wait there's more
+
+The newish RQGIS package for R now allows you to call anything from the QGIS Processing toolbox directly from R. So now you can work either in QGIS or in R and utilize both either way.
