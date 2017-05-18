@@ -15,6 +15,9 @@ GeoJSON is a single-file vector format that's human-readable with a text editor 
 ### TopoJSON
 Keep an eye out for support of TopoJSON, GeoJSON with topology to reduce the redundancy of shared nodes.
 
+# Data-defined Labels
+Data defined labels allow you to style, place and orient your labels based on values in your attribute table. These properties can be hand edited, with the changes recorded to the table. It the best of both worlds, automated labelling with custom overrides, without the need to split the labels to another layer or content type (Annotations). This system can be used to create Annotation type layers, but one's that behave just like other vector layers, editing, browsing, updating by script or calucalation, batch changes, etc... *Insert link to tutorial here*
+
 # Rule-Based Styles
 Rule-based styles allow you to combine the power of an SQL-style query with the visualization capabilities of QGIS.  Have a road layer and want the highways to display differently than the surface streets?  This is your tool!  Nathan Woodrow has a [tutorial on using the rule-based style renderer](https://nathanw.net/2011/06/06/one-of-my-favorite-features-of-qgis/).
 
