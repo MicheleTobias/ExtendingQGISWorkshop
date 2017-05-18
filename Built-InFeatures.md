@@ -7,13 +7,18 @@ QGIS can read and write in a vast array of formats.  You're already familiar wit
 Geopackage is an excellent format for vector data exchange.  It's an open format and is readable by QGIS, ArcGIS, and presumably other geospatial programs since it has been incorporated into GDAL.  Geopackage can also store raster data, but given that it limits data to 3 bands for JPG or 4 (RBG + alpha) for PNG, we'd recommend GeoTIFF for most of your raster exchange needs.
 
 ## GeoTIFF
-GeoTIFF is great for exchanging raster data.  It can store and unlimited number of bands (as compared with 3 for rasters in the Geopackage format), as well as "no data" cells.  It is also incorporated into GDAL.
+GeoTIFF is great for exchanging raster data.  It can store and unlimited number of bands (as compared with 3 for rasters in the Geopackage format), as well as "no data" cells.  It is also incorporated into GDAL and supports lossless compression.
 
 ## GeoJSON
-GeoJSON is a single-file vector format that human-readable with a text editor and has a structure similar to XML.  Added bonus: GitHub will automatically visualize GeoJSON files in online repositories!
+GeoJSON is a single-file vector format that's human-readable with a text editor and has a structure similar to XML, but is more efficient (less text = smaller file sizes). It's a variant of the common web exchange format JSON. Added bonus: GitHub will automatically visualize GeoJSON files in online repositories!
+
+### TopoJSON
+Keep an eye out for support of TopoJSON, GeoJSON with topology to reduce the redundancy of shared nodes.
 
 # Rule-Based Styles
 Rule-based styles allow you to combine the power of an SQL-style query with the visualization capabilities of QGIS.  Have a road layer and want the highways to display differently than the surface streets?  This is your tool!  Nathan Woodrow has a [tutorial on using the rule-based style renderer](https://nathanw.net/2011/06/06/one-of-my-favorite-features-of-qgis/).
+
+To skip to a more complicated example of using rule based styling follow Anita Grasers' [A guide to GoogleMaps-like maps with OSM in QGIS](https://anitagraser.com/2014/05/31/a-guide-to-googlemaps-like-maps-with-osm-in-qgis/)
 
 # Advanced Editing & Digitizing for Vector Data
 The Advanced Digitizing Toolbar provides advanced digitizing and editing tools for vector data.  You'll probably need to add the toolbar to be able to see it.  From the View menu, select Toolbars, then check the Advanced Digitizing Toolbar.  The QGIS User Manual has a [comprehensive discussion of what each of these tools can do](http://docs.qgis.org/2.14/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#advanced-digitizing).  QGIS Tutorials has a fairly comprehensive [tutorial on creating and editing vector data](http://www.qgistutorials.com/en/docs/digitizing_basics.html).
@@ -29,7 +34,7 @@ You can probably think of some reasons to export a PDF instead of an image file,
 # Databases
 QGIS integrates natively with spatial databases like Spatialite and PostGIS.  Why does this matter?  It means you can store all your data for one project in a single database rather than managing a number of files (sometimes multiple files for one dataset... I'm looking at you, shapefile!) and not have to move them around to work with them.  For those familiar with GRASS' mapset and location concept, this might feel similar, but spatial databases are a refinement to these concepts.  Because many GIS people are visual learners and understand things better if they can see them, learning to work with a database with no visualization capability built-in can be daunting or just down-right unappealing.  Connecting your databse to QGIS allows you to visualize the results of queries which can help visual learners understand the results they create.
 
-To work through many of the database tutorials, you'll actually need to install the database software and import some spatial data to work with in QGIS.  This is a lot to do for a 4-hour workshop like this (workign with spatial databses can really be it's own workshop), so we'll encourage you to skim the tutorials we're about to mention and come back to try them out later when you have more time to focus on it.  If you've already got a Spatialite or PostGIS database set up, you may not have tried connecting it yet to QGIS.  Now's a great time to give that a try.
+To work through many of the database tutorials, you'll actually need to install the database software and import some spatial data to work with in QGIS.  This is a lot to do for a 4-hour workshop like this (working with spatial databses can really be it's own workshop), so we'll encourage you to skim the tutorials we're about to mention and come back to try them out later when you have more time to focus on it.  If you've already got a Spatialite or PostGIS database set up, you may not have tried connecting it yet to QGIS.  Now's a great time to give that a try.
 
 The QGIS Training Manual has several tutorials we'd recommend:
 1. [Database Concepts with PostgreSQL](http://docs.qgis.org/2.14/en/docs/training_manual/database_concepts/index.html)
