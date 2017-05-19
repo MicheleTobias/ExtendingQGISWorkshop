@@ -12,14 +12,15 @@ GeoTIFF is great for exchanging raster data.  It can store and unlimited number 
 ## GeoJSON
 GeoJSON is a single-file vector format that's human-readable with a text editor and has a structure similar to XML, but is more efficient (less text = smaller file sizes). It's a variant of the common web exchange format JSON. Added bonus: GitHub will automatically visualize GeoJSON files in online repositories!
 
-### TopoJSON
-Keep an eye out for support of TopoJSON, GeoJSON with topology to reduce the redundancy of shared nodes.
+*Note: TopoJSON; In the future keep an eye out for support of TopoJSON, GeoJSON with topology to reduce the redundancy of shared nodes.*
 
 # Data-defined Labels
-Data defined labels allow you to style, place and orient your labels based on values in your attribute table. These properties can be hand edited, with the changes recorded to the table. It the best of both worlds, automated labelling with custom overrides, without the need to split the labels to another layer or content type (Annotations). This system can be used to create Annotation type layers, but one's that behave just like other vector layers, editing, browsing, updating by script or calucalation, batch changes, etc... *Insert link to tutorial here*
+Data defined labels allow you to style, place and orient your labels based on values in your attribute table. These properties can be hand edited, with the changes recorded to the table. It the best of both worlds, automated labelling with custom overrides, without the need to split the labels to another layer or content type (Annotations in other GIS software). This system can be used to create Annotation type layers, but one's that behave just like other vector layers, editing, browsing, updating by script or calucalation, batch changes, etc... [QGIS Manual topic on data-defined labels](http://docs.qgis.org/2.14/en/docs/user_manual/working_with_vector/vector_properties.html#data-defined-labeling) then see the [QGIS Training Manual: 4.2. Lesson: The Label Tool](http://docs.qgis.org/2.14/en/docs/training_manual/vector_classification/label_tool.html#hard-fa-data-defined-settings) for more details (4.2.6-4.2.8)
 
 # Rule-Based Styles
 Rule-based styles allow you to combine the power of an SQL-style query with the visualization capabilities of QGIS.  Have a road layer and want the highways to display differently than the surface streets?  This is your tool!  Nathan Woodrow has a [tutorial on using the rule-based style renderer](https://nathanw.net/2011/06/06/one-of-my-favorite-features-of-qgis/).
+
+*Note: you can also do Rule-Based Labels*
 
 To skip to a more complicated example of using rule based styling follow Anita Grasers' [A guide to GoogleMaps-like maps with OSM in QGIS](https://anitagraser.com/2014/05/31/a-guide-to-googlemaps-like-maps-with-osm-in-qgis/)
 
