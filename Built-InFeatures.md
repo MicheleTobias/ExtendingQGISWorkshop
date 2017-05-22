@@ -22,7 +22,7 @@ Rule-based styles allow you to combine the power of an SQL-style query with the 
 
 *Note: you can also do Rule-Based Labels*
 
-To skip to a more complicated example of using rule based styling follow Anita Grasers' [A guide to GoogleMaps-like maps with OSM in QGIS](https://anitagraser.com/2014/05/31/a-guide-to-googlemaps-like-maps-with-osm-in-qgis/)
+For a more complicated example of using rule based styling follow Anita Grasers' [A guide to GoogleMaps-like maps with OSM in QGIS](https://anitagraser.com/2014/05/31/a-guide-to-googlemaps-like-maps-with-osm-in-qgis/)
 
 # Advanced Editing & Digitizing for Vector Data
 The Advanced Digitizing Toolbar provides advanced digitizing and editing tools for vector data.  You'll probably need to add the toolbar to be able to see it.  From the View menu, select Toolbars, then check the Advanced Digitizing Toolbar.  The QGIS User Manual has a [comprehensive discussion of what each of these tools can do](http://docs.qgis.org/2.14/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#advanced-digitizing).  QGIS Tutorials has a fairly comprehensive [tutorial on creating and editing vector data](http://www.qgistutorials.com/en/docs/digitizing_basics.html).
