@@ -19,7 +19,7 @@ We've picked out some plugins that we think are pretty useful.  We'd like you to
 |QSpatiaLite| Work with Spatialite databases directly in QGIS |[Ecostudies Blog: New spatialite plugin for QGIS](https://pvanb.wordpress.com/2011/03/30/new-spatialite-plugin-for-qgis/) see also *QGIS 2 Cookbook* |
 |TimeManager|Adds visualization for temporal geospatial data |[Anita Graser's Bird Migration Data Tutorial](https://anitagraser.com/2016/09/24/how-to-visualize-bird-migration-data-with-qgis-timemanager/) see also *QGIS 2 Cookbook* |
 |TableManager|Edit attribute table column names and order |[Honey Bee Research Association's Table Manager Tutorial](http://www.coloss.org/beebook/I/gis/7/4/5/2) |
-|QGIS Resource Sharing|[Share and Download sets of SVG icons](https://anitagraser.com/2016/10/23/more-icons-symbols-for-qgis/) |
+|QGIS Resource Sharing| Share and Download sets of SVG icons | [More icons & symbols for QGIS](https://anitagraser.com/2016/10/23/more-icons-symbols-for-qgis/) |
 |DigitizingTools| Additional tools useful when digtizing vector data |[Digtizing Tools Usage Wiki Page](https://github.com/bstroebl/DigitizingTools/wiki/Usage) |
 |Numerical Vertex Edit| Enter coordinates by hand or move points to exact coordinates | [GIS Lounge: How to Map a Single Set of Coordinate Using QGIS](https://www.gislounge.com/map-single-coordinate-using-qgis/)|
 |Numerical Digitize| Digitize points with coordinates |[Geospatial Solutions Expert: How to Plot a Single Set of Point Coordinate in an existing layer Using QGIS](https://umar-yusuf.blogspot.com/2016/06/How-to-Plot-a-Single-Set-of-Point-Coordinate-in-an-existing-layer-Using-QGIS.html) |
